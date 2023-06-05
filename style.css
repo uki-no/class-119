@@ -1,0 +1,36 @@
+canvas{
+    margin-top: 125px;
+    animation-name: box_s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_s {
+    from{box-shadow: 1px 1px 30px grey;}
+    to{box-shadow: 1px 1px 30px white;}
+}
+
+#show_sketch{
+    font-size: medium;
+    background-color: #b49dc7;
+    border: #796a85 solid;
+    border-radius: 2px;
+    font-size: x-large;
+    color: #796a85;
+}
+
+body{
+    background-color:#aea2b8;
+}
+
+#clear{
+    background-color:#7a6a91 ;
+    color:#c9bddb ;
+    border:#5c4f6e solid;
+    border-radius:2px ;
+}
+
+#ski{
+    color: #5c4f6e;
+    font-family: 'Caveat', cursive;;
+}
